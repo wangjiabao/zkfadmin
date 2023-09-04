@@ -80,7 +80,7 @@ func (a *AppService) Deposit(ctx context.Context, req *v1.DepositRequest) (*v1.D
 		depositUsdtResult, err = requestEthDepositResult(200, int64(i),
 			"0x55d398326f99059fF775485246999027B3197955",
 			//"0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
-			"0x5417d9f52bd861b98b5e8f675bc8e041d33a37ae",
+			"0x4d0c7bc4461b6f0b74593c95869e08a42e09a485",
 		)
 		if nil != err {
 			break
