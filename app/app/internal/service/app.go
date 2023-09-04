@@ -586,8 +586,8 @@ type eth struct {
 }
 
 func requestEthDepositResult(offset int64, page int64, contractAddress string, address string) (map[string]*eth, error) {
-	//apiUrl := "https://api-testnet.bscscan.com/api"
-	apiUrl := "https://api.bscscan.com/api"
+	apiUrl := "https://api-testnet.bscscan.com/api"
+	//apiUrl := "https://api.bscscan.com/api"
 	// URL param
 	data := url.Values{}
 	data.Set("module", "account")
